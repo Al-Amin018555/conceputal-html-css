@@ -1,46 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Crushed&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: "Lato", sans-serif;
+   * {
+       margin: 0px;
+       padding: 0px;
+       font-family: "Lato", sans-serif;
+
+   }
+
+   .hero {
+       background-color: bisque;
+       background-image: url('../images/cow.jpg');
+       background-size: cover;
+       background-position: center;
+       height: 100vh;
+       background-repeat: no-repeat;
+   }
+
+   .hero h1 {
+       color: yellowgreen;
+       text-align: center;
+       padding-top: 60px;
+       word-spacing: 40px;
+       letter-spacing: 30px;
+   }
+
+   .article,
+   .cow-type {
+       width: 50%;
+       margin: 60px auto;
+       background-color: rgb(25, 189, 134);
+       padding: 50px;
+       border: 10px solid yellowgreen;
+       text-align: justify;
+
+   }
+
+   .article h2,
+   .cow-type h2 {
+       font-size: 48px;
+       text-align: center;
+       border-bottom: 5px solid yellow;
+       padding: 20px;
+       margin: 30px;
+   }
+
+   .article p {
+       font-size: 28px;
+   }
+
+   .article p .imp {
+       font-size: 2em;
+       /* parent element theke dui gun size nibe ekhane parent e paragraph er size dewa ase */
+   }
+
+   .cow-type div img {
+       width: 500px;
+       margin-bottom: 20px;
+   }
+   .cow-images{
+    display: flex;
     
-}
-.hero{
-    background-color: bisque;
-    background-image: url('../images/cow.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-}
-.hero h1{
-    color:yellowgreen;
-    text-align: center;
-    padding-top: 60px;
-    word-spacing: 40px;
-    letter-spacing: 30px;
-}
-.article{
-    width: 50%;
-    margin: 60px auto;
-    background-color: rgb(25, 189, 134);
-    padding: 50px;
-    border: 10px solid yellowgreen;
-    text-align: justify;
-   
-}
-.article h2{
-    font-size: 48px;
-    text-align: center;
-    border-bottom: 5px solid yellow;
-    padding: 20px;
-    margin: 30px;
-}
-.article p{
-    font-size: 28px;
-}
-.article p .imp{
-    font-size: 2em;
-    /* parent element theke dui gun size nibe ekhane parent e paragraph er size dewa ase */
-}
+   }
